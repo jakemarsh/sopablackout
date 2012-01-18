@@ -53,6 +53,14 @@ table {
 
 
 
+
+
+
+
+
+
+
+
 * {
 	-webkit-touch-callout: none;
 	-webkit-text-size-adjust:none;
@@ -190,6 +198,18 @@ a.learnmore {
 		font-size: 12px;
 		line-height: 16px;
 	}
+		#learnmore p a {
+			display: inline-block;
+			font-size: inherit;
+			font-weight: inherit;
+			text-transform: inherit;
+			color: #fff;
+			border-radius: 24px;
+			margin: 0;
+			text-shadow: none;
+			background: none;
+			padding: 0;
+		}
 	
 @media only screen and (max-device-width: 480px) {
 	html {

@@ -14,8 +14,6 @@ Then open up your `routes.rb` and mount the engine at a route, (obviously it pro
   mount Sopablackout::Engine => "/"
 ```
 
-= Sopablackout
-
-This project rocks and uses MIT-LICENSE.
+[Jeff](http://brdrck.me) really did an awesome job and 100% of the credit for anything you see here goes to him, I just needed it in Rails so I could use it on my site, so I thought I'd share.
 
 You can see a preview of what this code will look like here: [http://brdrck.me/sopa](http://brdrck.me/sopa)

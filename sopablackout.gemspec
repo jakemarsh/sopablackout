@@ -7,11 +7,11 @@ require "sopablackout/version"
 Gem::Specification.new do |s|
   s.name        = "sopablackout"
   s.version     = Sopablackout::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Sopablackout."
-  s.description = "TODO: Description of Sopablackout."
+  s.authors     = ["Jeff Broderick", "Jake Marsh"]
+  s.email       = ["jake@thejakemarsh.com"]
+  s.homepage    = "http://brdrck.me"
+  s.summary     = "A quick and dirty port of @brdrck's PHP SOPA Blackout code into a mountable Rails engine."
+  s.description = "A quick and dirty port of @brdrck's PHP SOPA Blackout code into a mountable Rails engine."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.markdown"]
   s.test_files = Dir["test/**/*"]

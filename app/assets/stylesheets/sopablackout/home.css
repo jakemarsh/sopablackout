@@ -52,6 +52,7 @@ table {
 
 
 
+
 * {
 	-webkit-touch-callout: none;
 	-webkit-text-size-adjust:none;
@@ -82,6 +83,14 @@ body{
 	box-sizing: border-box;
 }
 
+html.article #container {
+	position: relative;
+	left: auto;
+	top: auto;
+	height: auto;
+	margin: 50px auto 20px auto;
+}
+
 h1, h2, h3, p {
 	text-align: center;
 	text-transform: uppercase;
@@ -96,6 +105,16 @@ h1 {
 	margin: 0 0 5px 0;
 	font-size: 14px;
 	line-height: 18px;
+}
+
+.nostyle {
+	display: inherit;
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: auto;
+	background: none;
+	border: none;
 }
 
 #logo {
@@ -151,7 +170,27 @@ a.learnmore {
 	background-color: rgba(255,255,255,0.15);
 	color: rgba(255,255,255,0.8);
 	padding: 10px 30px;
+	margin-top: 20px;
 }
+
+#learnmore {
+	margin-top: 40px;
+}
+	#learnmore h1 {
+		display: block;
+		text-align: left;
+		padding-bottom: 5px;
+		border-bottom: 2px solid rgba(255,255,255,0.1);
+		margin-top: 20px;
+	}
+	#learnmore p {
+		text-align: left;
+		font-weight: normal;
+		text-transform: none;
+		font-size: 12px;
+		line-height: 16px;
+	}
+	
 @media only screen and (max-device-width: 480px) {
 	html {
 		min-height: 416px;
@@ -160,7 +199,7 @@ a.learnmore {
 		position: relative;
 		top: auto;
 		left: auto;
-		margin: 60px auto 0 auto;
+		margin: 60px auto 20px auto;
 		padding: 0;
 		width: 100%;
 		padding: 0 10px;

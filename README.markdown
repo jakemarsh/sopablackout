@@ -6,7 +6,11 @@ Installing it is super simple, just toss this in your `Gemfile`:
 gem 'sopablackout', :git => "git@github.com:jakemarsh/sopablackout.git"
 ```
 
-Then run 'bundle install'
+Then run
+
+``` bash
+bundle install
+```
 
 Then open up your `routes.rb` and mount the engine at a route, (obviously it probably makes sense to mount it to `"/"` so your whole site is blacked out).
 

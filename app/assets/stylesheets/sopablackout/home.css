@@ -136,7 +136,7 @@ h1 {
 	background-color: transparent;
 	background-repeat: no-repeat;
 	background-position: top center;
-	background-image: url('logo.png');
+	background-image: url('http://deallocated-objects.s3.amazonaws.com/images/logo.png');
 }
 
 p {
